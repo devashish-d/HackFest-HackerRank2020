@@ -1,0 +1,7 @@
+def whoIsTheWinner(arr):
+    if (len(arr) == 1) or len(sorted(arr))==len(set(arr)):
+        return("First")
+    elif len(arr)%2==0:
+        return("Second")
+    else:
+        return("First")
